@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Authors>TryPhotino</Authors>
@@ -27,9 +27,5 @@
       <PackageVersion>$(Version)</PackageVersion>
     </PropertyGroup>
   </Target>
-
-  <ItemGroup>
-    <PackageReference Include="Photino.Native" Version="2.4.1" />
-  </ItemGroup>
 
 </Project>
