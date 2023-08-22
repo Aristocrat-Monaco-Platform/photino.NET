@@ -28,4 +28,8 @@
     </PropertyGroup>
   </Target>
 
+  <ItemGroup>
+    <PackageReference Include="Photino.Native" Version="2.4.1" />
+  </ItemGroup>
+
 </Project>
