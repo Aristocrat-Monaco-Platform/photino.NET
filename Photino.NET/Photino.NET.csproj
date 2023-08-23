@@ -28,8 +28,4 @@
     </PropertyGroup>
   </Target>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="COPY $(ProjectDir)..\..\photino.Native\Photino.Native\x64\$(Configuration)\Photino.Native.dll $(OutDir)&#xD;&#xA;COPY $(ProjectDir)..\..\photino.Native\Photino.Native\x64\$(Configuration)\Photino.Native.pdb $(OutDir)&#xD;&#xA;COPY $(ProjectDir)..\..\photino.Native\Photino.Native\x64\$(Configuration)\WebView2Loader.dll $(OutDir)" />
-  </Target>
-
 </Project>
